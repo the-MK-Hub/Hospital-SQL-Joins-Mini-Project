@@ -1,28 +1,28 @@
 # Hospital-SQL-Joins-Mini-Project
 
-📌 Project Title
+# 📌 Project Title
 Hospital Management SQL Analysis
 
-📖 Project Overview
+# 📖 Project Overview
 This project analyzes hospital patient, doctor, and appointment data using SQL.
 The goal is to extract business insights such as revenue generation, doctor workload, and patient engagement using JOINs and aggregation techniques.
 
-🛠 Tools Used
+# 🛠 Tools Used
 SQL (MySQL)
 Joins (INNER, LEFT)
 Aggregations (SUM, COUNT, AVG)
 GROUP BY & ORDER BY
 
-🗂 Database Schema
+# 🗂 Database Schema
 Tables Used:
 Patients
 Doctors
 Appointments
 
-Relationship:
+# Relationship:
 Patients → Appointments ← Doctors
 
-📊 Business Questions Solved
+# 📊 Business Questions Solved
 Show patient name, doctor name, visit date, and diagnosis.
 List all doctors and the patients they treated.
 Count total appointments handled by each doctor.
@@ -34,13 +34,13 @@ Determine doctor handling highest number of unique patients.
 Identify repeat patients.
 Analyze appointment trends.
 
-🔍 Key Insights
-Certain specializations generate significantly higher revenue.
-Some doctors handle more repeat patients, indicating strong retention.
-Revenue is concentrated in specific cities.
-Appointment distribution shows workload imbalance among doctors.
+# 🔍 Key Insights
+- Certain specializations generate significantly higher revenue.
+- Some doctors handle more repeat patients, indicating strong retention.
+- Revenue is concentrated in specific cities.
+- Appointment distribution shows workload imbalance among doctors.
 
-📈 Learning Outcomes
-Practical implementation of multi-table JOINs
-Business-driven SQL thinking
-Aggregation and analytical reporting
+# 📈 Learning Outcomes
+- Practical implementation of multi-table JOINs.
+- Business-driven SQL thinking.
+- Aggregation and analytical reporting.
