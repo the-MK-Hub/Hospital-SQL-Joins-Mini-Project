@@ -1,1 +1,34 @@
+# Patients Data
 
+INSERT INTO patients VALUES
+(1,'Rahul',34,'Male','Hyderabad'),
+(2,'Sneha',28,'Female','Bangalore'),
+(3,'Arjun',45,'Male','Chennai'),
+(4,'Priya',31,'Female','Hyderabad'),
+(5,'Kiran',52,'Male','Mumbai'),
+(6,'Anjali',40,'Female','Delhi'),
+(7,'Vikram',29,'Male','Hyderabad'),
+(8,'Meera',36,'Female','Chennai'),
+(9,'Rohit',48,'Male','Mumbai'),
+(10,'Divya',25,'Female','Bangalore');
+
+# Doctors Data
+INSERT INTO doctors VALUES
+(101,'Dr. Sharma','Cardiology',12),
+(102,'Dr. Mehta','Neurology',10),
+(103,'Dr. Reddy','Orthopedics',8),
+(104,'Dr. Kapoor','Dermatology',6),
+(105,'Dr. Singh','General Medicine',15);
+
+# Appointments Data
+INSERT INTO appointments VALUES
+(1001,1,101,'2025-01-10','Heart Checkup',2000),
+(1002,2,102,'2025-01-11','Migraine',1800),
+(1003,3,103,'2025-01-15','Fracture',2500),
+(1004,4,105,'2025-01-20','Fever',1200),
+(1005,5,101,'2025-01-22','Chest Pain',2200),
+(1006,6,104,'2025-01-25','Skin Allergy',1500),
+(1007,1,105,'2025-02-01','General Checkup',1000),
+(1008,7,103,'2025-02-03','Back Pain',2300),
+(1009,8,102,'2025-02-05','Headache',1700),
+(1010,9,101,'2025-02-10','Heart Follow-up',2100);
