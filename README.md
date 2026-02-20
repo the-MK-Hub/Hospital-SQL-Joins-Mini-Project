@@ -1,5 +1,3 @@
-# Hospital-SQL-Joins-Mini-Project
-
 # 📌 Project Title
 Hospital Management SQL Analysis
 
